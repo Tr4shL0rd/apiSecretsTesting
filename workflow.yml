@@ -1,3 +1,4 @@
 name: secrets Test
-env:
-  API_KEY: ${{ secrets.APIKEY}}
+  env:
+    API_KEY: ${{ secrets.APIKEY}}
+  run: script.py
